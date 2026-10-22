@@ -1,0 +1,101 @@
+body {
+    color: #343a40;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+.card {
+    border: 0;
+    border-radius: 8px;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.table th {
+    border-top: 0;
+    font-size: 0.875rem;
+    white-space: nowrap;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.modal-content {
+    border: 0;
+    border-radius: 8px;
+}
+
+.invalid-feedback {
+    display: block;
+}
+
+.delete-modal {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.delete-modal .close {
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.delete-icon {
+    width: 68px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #fde8e7;
+    color: #dc3545;
+    font-size: 26px;
+}
+
+.product-delete-info {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+#confirmDeleteProduct {
+    min-width: 155px;
+    transition: background-color 0.2s ease;
+}
+
+#confirmDeleteProduct:hover {
+    background-color: #bd2130;
+}
+
+#confirmDeleteProduct:disabled {
+    cursor: not-allowed;
+    opacity: 0.65;
+}
+
+#deleteProductModal .modal-body {
+    padding-bottom: 28px;
+}
+
+@media (max-width: 480px) {
+    #deleteProductModal .modal-dialog {
+        margin: 12px;
+    }
+
+    #deleteProductModal .modal-body {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
